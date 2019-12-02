@@ -1,0 +1,12 @@
+{
+    "name": "bea/cora",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Beatriz Bizatto",
+            "email": "beatrizbizatto23@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
