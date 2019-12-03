@@ -10,9 +10,8 @@ class User extends DataLayer
     {
     parent::__construct("usuario", ["primeiro_nome", "ultimo_nome", "usuario", "senha"], "id_user");
     }
-}
 
-public function add( string $usuario, string $primeiroNome, string $ultimoNome, string $senha): User
+public function add( string $usuario, string $primeiroNome, string $ultimoNome, string $senha): Void
 {
 
     $this->usuario = $usuario;
@@ -20,6 +19,7 @@ public function add( string $usuario, string $primeiroNome, string $ultimoNome, 
     $this->ultimo_nome = $ultimoNome;
     $this->senha = $senha;
 
-    //$this->save();
-    return $this;
+    $this->save();
+    //return $this;
+}
 }

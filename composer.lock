@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d57650144314e16137023f3943b1f7b5",
+    "content-hash": "6265adfa89da5f13cd5e8db54f63f3b2",
     "packages": [
         {
             "name": "coffeecode/datalayer",
